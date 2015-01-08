@@ -48,7 +48,7 @@ vpath %.a lib
 ROOT=$(shell pwd)
 
 CFLAGS += -Iinc -Ilib -Isrc
-CFLAGS += -Ilib/driver/inc -Ilib/cmsis/device/inc -Ilib/cmsis/inc -Ilib/fatfs -Ilib/usb_msc_host/inc -Ilib/tm/inc
+CFLAGS += -Ilib/driver/inc -Ilib/cmsis/device/inc -Ilib/cmsis/inc -Ilib/fatfs -Ilib/usb_msc_host/inc -Ilib/stm32f4-tm/inc
 
 #SRCS += lib/startup_stm32f40_41xxx.s # add startup file to build
 SRCS += lib/startup_stm32f4xx.s
