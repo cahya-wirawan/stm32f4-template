@@ -90,7 +90,7 @@ void hwInit() {
   TM_DELAY_Init();
 	// Initialise leds on board
 	TM_DISCO_LedInit();
-	//Initialise USART1 at 115200 baud, TX: PA9, RX: PA10
+	//Initialise USART2 at 115200 baud, TX: PA2, RX: PA3
   TM_USART_Init(USART2, TM_USART_PinsPack_1, 115200);
 	// Initialize button on board
 	TM_DISCO_ButtonInit();
